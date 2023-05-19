@@ -1,0 +1,18 @@
+{
+  "name": "testfirstbot",
+  "version": "1.0.0",
+  "description": "test bot for looking how create bots",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "lonely43",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22",
+    "telegraf": "^4.12.2",
+    "telegraf-session-local": "^2.1.1"
+  }
+}
